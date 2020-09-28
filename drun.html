@@ -1,0 +1,22 @@
+<h1>Docker Conatiner Page</h1>
+<style>
+body {
+  background-image: url('https://www.threatstack.com/wp-content/uploads/2017/06/docker-cloud-twitter-card.png');
+  background-size:cover;
+  background-repeat:no-repeat;	  
+}
+</style>
+<form action ="http://192.168.43.98/cgi-bin/dockerrun.py">
+Enter your osname <input type='text' name='x' />
+<br/>
+
+Select Your Os image name:
+<select name='i'>
+	<option>ubuntu:14.04<option>
+	<option>centos:latest<option>
+	<option>httpd:latest<option>
+</select>
+
+<br/>
+<input type='submit' />
+<form>
